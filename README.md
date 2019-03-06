@@ -1,14 +1,18 @@
-Home Work Yalantis school 
+Home Work Yalantis school Async
 ===============
 
-1.  Function Sum other return sum all arguments
-2.  Function memoization, this function save object in cash
-3.  Game Gladiator and Monster
+1.  Function add select group to user
+2.  Function take for stop endless array
+3.  Function memoization in ES6 features
 
 Usage
 -----
-This repositories have three branch for each tasks
+This repositories have three folder for each tasks
 
-* First task save in folder function_sum
-* Second task save in folder function_memoization
-* Third task save in folder game
+* First task save in folder iterator
+* Second task save in folder Promise
+* Third task save in folder memoization
+
+Example
+-----
+
