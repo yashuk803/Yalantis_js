@@ -13,6 +13,4 @@ This repositories have three folder for each tasks
 * Second task save in folder Promise
 * Third task save in folder memoization
 
-Example
------
 
