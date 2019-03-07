@@ -51,16 +51,15 @@ const setGroupUsers = (user, group) => {
  */
 const addSelectedGroupToUsers = async (users, group) => {
 
-    Promise.all(
-        users.map(async (user, i) => {
-            if(!user.id) {
-               const createUser =  await createUsers(user);
-            }
-            if(!user.groupId) {
-                const setGroupUser = await setGroupUsers(user, group);
-            }
-        })
-    );
+    users.map(async (user, i) => {
+        if (!user.id) {
+            const createUser = await createUsers(user);
+        }
+        if (!user.groupId) {
+            const setGroupUser = await setGroupUsers(user, group);
+        }
+    });
+
     return users
 
 };
